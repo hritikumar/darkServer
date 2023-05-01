@@ -1,0 +1,1 @@
+Stock Control is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) application for inventory management 📦📈. It allows users to manage their inventory and track sales using a simple and intuitive user interface 💻📊.
