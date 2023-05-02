@@ -1,0 +1,54 @@
+<html ng-app>
+<head>
+<script type="text/javascript" src=angular.min.js></script>
+</head>
+<body>
+<div>
+10 + 20 = {{ 10+20 }}
+</div>
+<div>
+    <!-- var myApp = angular.module(“myModule”, []);
+
+    var myController = function ($scope) {
+        $scope.message = “AngularJS Introdcution”;
+        }
+
+    app.controller('myCtrl', function($scope) {
+        $scope.carname = "Volvo";
+        }); -->
+            
+{{1==2}}
+{{1==1}}
+{{ {name: 'Reema', age: '30'}.age }}
+{{ ['David', 'Sara', 'Pam'][0] }}
+<div ng-app="myApp" ng-controller="myCtrl">
+    <label>Name:</label>
+    <input type="text" ng-model="name">
+    <h1>Hello {{name}}!</h1>
+  </div>  
+<script>
+
+var app = angular.module("myApp", []);
+app.controller("myCtrl", function($scope) {
+  $scope.name = "";
+});
+
+</script>
+</div>
+</body>
+</html>
+var myApp=angular.module("myApp",[]);
+
+myapp.controller("myctrl",function($scope){
+    $scope.message="Hello this is vishal ";
+})
+<div ng-controller="myctrl">
+  <input type="text" ng-model="greeting">
+  <input type="text" ng-model="message">
+  {{greeting}} {{message}}
+</div>
+
+myapp.controller("myctrl",function($scope){
+  $scope.greeting="hello";
+  $scope.message="vishal";
+})
