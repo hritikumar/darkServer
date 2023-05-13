@@ -60,10 +60,6 @@ int main()
         printf("NO\n");
     }
     return 0;
-}
-//4176866   Jul 27, 2013 12:50:16 PM	fuwutu	 334B - Eight Point Sets	 GNU C++0x	Accepted	 30 ms	 0 KB
-#include <iostream>
-#include <algorithm>
 
 using namespace std;
 
@@ -105,4 +101,27 @@ int main()
         cout << "ugly" << endl;
     }
     return 0;
+
+{
+    "glossary": {
+        "title": "example glossary",
+		"GlossDiv": {
+            "title": "S",
+			"GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+					"SortAs": "SGML",
+					"GlossTerm": "Standard Generalized Markup Language",
+					"Acronym": "SGML",
+					"Abbrev": "ISO 8879:1986",
+					"GlossDef": {
+                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
+						"GlossSeeAlso": ["GML", "XML"]
+                    },
+					"GlossSee": "markup"
+                }
+            }
+        }
+    }
+}
 }
